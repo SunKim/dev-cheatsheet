@@ -43,6 +43,30 @@
           <li>Multi-platform Desktop Apps (using Electron)</li>
         </ul>
       </p>
+
+      <p class="p-title">참고문서</p>
+      <p class="p-content">
+        <ul>
+          <li>
+            공식 DOCS -
+            <a target="_blank" class="q-link text-blue-grey" href="https://quasar.dev/introduction-to-quasar">
+              https://quasar.dev/introduction-to-quasar
+            </a>
+          </li>
+          <li>
+            quasar awesome -
+            <a target="_blank" class="q-link text-blue-grey" href="https://github.com/quasarframework/quasar-awesome">
+              https://github.com/quasarframework/quasar-awesome
+            </a>
+          </li>
+          <li>
+            i18n 추가적용 -
+            <a target="_blank" class="q-link text-blue-grey" href="https://medium.com/quasar-framework/adding-full-i18n-to-quasar-150da2d5bba4">
+              https://medium.com/quasar-framework/adding-full-i18n-to-quasar-150da2d5bba4
+            </a>
+          </li>
+        </ul>
+      </p>
     </section>
 
     <section-title>Quasar CLI</section-title>
@@ -73,9 +97,66 @@
           https://github.com/quasarframework/app-extension-icon-genie
         </a>
       </p>
+    </section>
 
-      <p class="p-title"></p>
-      <p class="p-content"></p>
+    <section-title>IDE 설정</section-title>
+    <section>
+      <p class="p-title">VS Code</p>
+      <p class="p-content">
+        <a target="_blank" class="q-link text-blue-grey" href="https://medium.com/vue-mastery/best-code-editor-for-vue-js-8b0d9cca6be">
+          https://medium.com/vue-mastery/best-code-editor-for-vue-js-8b0d9cca6be
+        </a>
+      </p>
+
+      <p class="p-title">ATOM</p>
+      <p class="p-content">
+        <ul>
+          <li>autoclose-html : html tag auto-close</li>
+          <li>language-vue : atom에서 vue syntax hightlight</li>
+          <li>vue2-autocomplete : vscript, vtemplate, vstyle</li>
+          <li>prettier-atom : 파일 저장시(manual:ctrl+opt+f) 자동으로 lint 수행</li>
+        </ul>
+      </p>
+    </section>
+
+    <section-title>CLI Documentation</section-title>
+    <section>
+      <p class="p-title">Directory Structure</p>
+      <p class="p-content">
+        <a target="_blank" class="q-link text-blue-grey" href="https://quasar.dev/quasar-cli/cli-documentation/directory-structure#Introduction">
+          https://quasar.dev/quasar-cli/cli-documentation/directory-structure#Introduction
+        </a>
+      </p>
+
+      <p class="p-title">Build 명령어</p>
+      <p class="p-content">
+        <a target="_blank" class="q-link text-blue-grey" href="https://quasar.dev/quasar-cli/cli-documentation/build-commands#Introduction">
+          https://quasar.dev/quasar-cli/cli-documentation/build-commands#Introduction
+        </a>
+      </p>
+      <p class="p-content shell-prompt">quasar dev -p 9090</p>
+      <p class="p-content shell-prompt">quasar dev -m pwa</p>
+      <p class="p-content shell-prompt">quasar dev -m android</p>
+      <p class="p-content shell-prompt">quasar build</p>
+      <p class="p-content shell-prompt">quasar build -m ssr</p>
+
+      <p class="p-title">Command list</p>
+      <p class="p-content">
+          <ul>
+              <li class="shell-prompt">quasar create my-project</li>
+              <li class="shell-prompt">quasar upgrade <span class="inline-cmt">업그레이드 가능한 package가 있는지 확인</span></li>
+              <li class="shell-prompt">quasar upgrade --install <span class="inline-cmt">실제 upgrade</span></li>
+              <li class="shell-prompt">quasar info</li>
+              <li class="shell-prompt">quasar new layout shop/Checkout.vue</li>
+              <li class="shell-prompt"></li>
+              <li class="shell-prompt"></li>
+              <li class="shell-prompt"></li>
+              <li class="shell-prompt"></li>
+              <li class="shell-prompt"></li>
+              <li class="shell-prompt"></li>
+
+          </ul>
+      </p>
       <p class="p-cf"></p>
 
       <p class="p-title"></p>
@@ -83,6 +164,13 @@
       <p class="p-cf"></p>
 
       <p class="p-title"></p>
+      <p class="p-content"></p>
+      <p class="p-cf"></p>
+    </section>
+
+    <section-title>Testing &amp; Auditing</section-title>
+    <section>
+      <p class="p-title">나중에 정리</p>
       <p class="p-content"></p>
       <p class="p-cf"></p>
     </section>

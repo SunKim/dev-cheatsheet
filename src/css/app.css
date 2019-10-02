@@ -10,14 +10,14 @@ ul li { list-style-type:none; }
 i { margin-left: 0.25rem; margin-right: 0.25rem;}
 /* 기본 */
 
-section p.p-title:first-child { margin-top:12px; }
-p.p-title { margin-top:24px; margin-bottom: 0px; display: inline-block; font-size:0.9rem; color:#555; font-weight:500; }
-p.p-title::before { content: "●  "; }
-p.p-content { margin-top:4px; margin-bottom: 0px; color: #37474F; padding-left: 12px; }
-p.p-content ul { margin-top:4px; margin-bottom: 0px; }
-p.shell-prompt::before { content: "~$ ";color: #666; }
-p.p-cf { margin: 6px 2px; padding: 4px 8px;; background: #f5f5f5; color: #666; border-radius: 4px; line-height: 1.4rem; }
-p.p-cf::before { content: "cf)"; }
+section .p-title:first-child { margin-top:12px; }
+.p-title { margin-top:24px; margin-bottom: 0px; display: inline-block; font-size:0.9rem; color:#555; font-weight:500; }
+.p-title::before { content: "●  "; }
+.p-content { margin-top:4px; margin-bottom: 0px; color: #37474F; padding-left: 12px; }
+.p-content ul { margin-top:4px; margin-bottom: 0px; }
+.shell-prompt::before { content: "~$ ";color: #666; }
+.p-cf { margin: 6px 2px; padding: 4px 8px;; background: #f5f5f5; color: #666; border-radius: 4px; line-height: 1.4rem; }
+.p-cf::before { content: "cf)"; }
 span.inline-cmt { color: green; }
 span.inline-cmt::before { content: "//"; margin-left: 80px; }
 
