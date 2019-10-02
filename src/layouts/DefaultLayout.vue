@@ -126,6 +126,16 @@
             </q-item-section>
           </q-item>
           <q-item
+            to="/front/javascript"
+            exact
+            active-class="router-sub-active"
+            clickable
+          >
+            <q-item-section>
+              <div class="text-subtitle2 pl60 text-blue-grey">javascript</div>
+            </q-item-section>
+          </q-item>
+          <q-item
             to="/front/es6"
             exact
             active-class="router-sub-active"
@@ -214,7 +224,7 @@
             </q-item-section>
           </q-item>
           <q-item
-            to="/hybrid/react"
+            to="/hybrid/reactnative"
             exact
             active-class="router-sub-active"
             clickable

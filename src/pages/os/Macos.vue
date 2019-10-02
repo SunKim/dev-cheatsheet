@@ -10,6 +10,7 @@
 
       <p class="p-title">Global 단축키</p>
       <p class="p-content">Cmd + Shift + / : 도움말 메뉴 보기</p>
+      <p class="p-content">F6 : Toggle Parallels</p>
 
       <p class="p-title">Finder 단축키</p>
       <p class="p-content">Cmd + Shift + G : 위치로 이동</p>

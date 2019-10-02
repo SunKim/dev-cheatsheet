@@ -59,20 +59,32 @@
 
       <p class="p-title">quasar.config.js</p>
       <p class="p-content">
-        <a target="_blank" class="q-link text-blue-grey-5" href="https://quasar.dev/quasar-cli/quasar-conf-js#Introduction">
+        <a target="_blank" class="q-link text-blue-grey" href="https://quasar.dev/quasar-cli/quasar-conf-js#Introduction">
           https://quasar.dev/quasar-cli/quasar-conf-js#Introduction
         </a>
       </p>
+
+      <p class="p-title">App Icon</p>
+      <p class="p-content shell-prompt">quasar ext add @quasar/icon-genie</p>
+      <p class="p-cf">
+        Icon Genie를 통해 1240*1240사이즈 app-icon.png를 project root에 넣으면 자동 생성<br />
+        아이콘 교체 : 재기동시 자동반영<br />
+        <a target="_blank" class="q-link text-blue-grey" href="https://github.com/quasarframework/app-extension-icon-genie">
+          https://github.com/quasarframework/app-extension-icon-genie
+        </a>
+      </p>
+
       <p class="p-title"></p>
       <p class="p-content"></p>
+      <p class="p-cf"></p>
+
       <p class="p-title"></p>
       <p class="p-content"></p>
+      <p class="p-cf"></p>
+
       <p class="p-title"></p>
       <p class="p-content"></p>
-      <p class="p-title"></p>
-      <p class="p-content"></p>
-      <p class="p-title"></p>
-      <p class="p-content"></p>
+      <p class="p-cf"></p>
     </section>
 
     <section-title>Practical</section-title>

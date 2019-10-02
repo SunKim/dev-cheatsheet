@@ -28,9 +28,12 @@ const routes = [
       { path: '', component: () => import('pages/FrontIndex.vue') },
       { path: 'html5', component: () => import('pages/front/Html5.vue') },
       { path: 'css3', component: () => import('pages/front/Css3.vue') },
+      {
+        path: 'javascript',
+        component: () => import('pages/front/Javascript.vue')
+      },
       { path: 'es6', component: () => import('pages/front/Es6.vue') },
-      { path: 'vuejs', component: () => import('pages/front/Vuejs.vue') },
-      { path: 'js', component: () => import('pages/front/Js.vue') }
+      { path: 'vuejs', component: () => import('pages/front/Vuejs.vue') }
     ]
   },
   {
@@ -66,7 +69,8 @@ const routes = [
         component: () => import('pages/tool/ChromeDev.vue')
       },
       { path: 'git', component: () => import('pages/tool/Git.vue') },
-      { path: 'heroku', component: () => import('pages/tool/Heroku.vue') }
+      { path: 'heroku', component: () => import('pages/tool/Heroku.vue') },
+      { path: 'etc', component: () => import('pages/tool/Etc.vue') }
     ]
   },
   {

@@ -58,6 +58,29 @@
     <section>
       <p class="p-title">Push</p>
       <p class="p-content shell-prompt">git push <b>github</b> master</p>
+      <p class="p-cf">
+          Github 확인후 .* 파일들이 없다면 <br />
+          ~$ git add .<br />
+          ~$ git commit -m “add .* files”<br />
+          ~$ git push github master
+      </p>
+    </section>
+
+    <section-title>Branch</section-title>
+    <section>
+      <p class="p-title">branch 상태 확인</p>
+      <p class="p-content shell-prompt">git branch</p>
+
+      <p class="p-title">branch 생성</p>
+      <p class="p-content shell-prompt">git branch &lt;branch&gt;</p>
+
+      <p class="p-title">branch 전환</p>
+      <p class="p-content shell-prompt">git checkout &lt;branch&gt;</p>
+
+      <p class="p-title">branch를 master로 merge</p>
+      <p class="p-content shell-prompt">git checkout master <span class="inline-cmt">master로 체크아웃</span></p>
+      <p class="p-content shell-prompt">git merge &lt;branch&gt; <span class="inline-cmt">현재 master로 checkout 된 상태에서 master로 &lt;branch&gt;를 병합</span></p>
+      <p class="p-content shell-prompt">git branch -d &lt;branch&gt; <span class="inline-cmt">&lt;branch&gt;는 master로 병합했으므로 지움</span></p>
     </section>
 
     <section-title>기타</section-title>

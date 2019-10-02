@@ -10,9 +10,6 @@ ul li { list-style-type:none; }
 i { margin-left: 0.25rem; margin-right: 0.25rem;}
 /* 기본 */
 
-.cs-head { font-size: 1rem;font-weight: 500;margin-bottom: 0px; }
-.cs-desc { font-size: 0.75rem;font-weight: 400;line-height: 1.25rem;letter-spacing: 0.03333em;margin-bottom: 0px; }
-
 section p.p-title:first-child { margin-top:12px; }
 p.p-title { margin-top:24px; margin-bottom: 0px; display: inline-block; font-size:0.9rem; color:#555; font-weight:500; }
 p.p-title::before { content: "●  "; }
@@ -21,6 +18,8 @@ p.p-content ul { margin-top:4px; margin-bottom: 0px; }
 p.shell-prompt::before { content: "~$ ";color: #666; }
 p.p-cf { margin: 6px 2px; padding: 4px 8px;; background: #f5f5f5; color: #666; border-radius: 4px; line-height: 1.4rem; }
 p.p-cf::before { content: "cf)"; }
+span.inline-cmt { color: green; }
+span.inline-cmt::before { content: "//"; margin-left: 80px; }
 
 /************ 여기부터 공통 ************/
 /* width */
@@ -56,6 +55,12 @@ p.p-cf::before { content: "cf)"; }
 .tl { text-align:left; }
 .tr { text-align:right; }
 /* Text-Align */
+
+/* Display */
+.block { display: block !important; }
+.inblock { display: inline-block !important; }
+.inline { display: inline !important; }
+/* Display */
 
 /* Margin & Padding */.ma0 { margin: 0px; }
 .ma0 { margin: 0px; }
