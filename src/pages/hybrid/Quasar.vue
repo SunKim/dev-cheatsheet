@@ -147,14 +147,15 @@
               <li class="shell-prompt">quasar upgrade <span class="inline-cmt">업그레이드 가능한 package가 있는지 확인</span></li>
               <li class="shell-prompt">quasar upgrade --install <span class="inline-cmt">실제 upgrade</span></li>
               <li class="shell-prompt">quasar info</li>
-              <li class="shell-prompt">quasar new layout shop/Checkout.vue</li>
-              <li class="shell-prompt"></li>
-              <li class="shell-prompt"></li>
-              <li class="shell-prompt"></li>
-              <li class="shell-prompt"></li>
-              <li class="shell-prompt"></li>
-              <li class="shell-prompt"></li>
-
+              <li class="shell-prompt">quasar new layout shop/Checkout.vue <span class="inline-cmt">src/layout/shop/Checkout.vue 생성</span></li>
+              <li class="shell-prompt">quasar mode <span class="inline-cmt">어떤 모드 설치되어 있는지 - pwa/ssr/cordova/electron</span></li>
+              <li class="shell-prompt">quasar mode [add|remove pwa|ssr|cordova|electron]</li>
+              <li class="shell-prompt">quasar describe (component/directive/Quasar plugin) <span class="inline-cmt">ex. quasar describe QIcon</span></li>
+              <li class="shell-prompt">quasar inspect <span class="inline-cmt">webpack config 확인</span></li>
+              <li class="shell-prompt">quasar ext <span class="inline-cmt">App extension 확인</span></li>
+              <li class="shell-prompt">quasar ext add 'ext-id'</li>
+              <li class="shell-prompt">quasar ext remove 'ext-id'</li>
+              <li class="shell-prompt">quasar run 'ext-id' 'command' [args, params] <span class="inline-cmt">App extension에서 사용 가능한 command 실행</span></li>
           </ul>
       </p>
       <p class="p-cf"></p>

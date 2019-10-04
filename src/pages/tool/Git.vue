@@ -22,7 +22,8 @@
     <section-title>Pull</section-title>
     <section>
       <p class="p-title">Remote와의 차이 확인</p>
-      <p class="p-content shell-prompt">git diff master github/master</p>
+      <p class="p-content shell-prompt">git branch -a</p>
+      <p class="p-content shell-prompt">git diff master remotes/github/master</p>
 
       <p class="p-title">Pull</p>
       <p class="p-content shell-prompt">git pull --rebase origin master</p>
@@ -68,8 +69,8 @@
 
     <section-title>Branch</section-title>
     <section>
-      <p class="p-title">branch 상태 확인</p>
-      <p class="p-content shell-prompt">git branch</p>
+      <p class="p-title">branch 상태 확인 (remote 포함)</p>
+      <p class="p-content shell-prompt">git branch -a</p>
 
       <p class="p-title">branch 생성</p>
       <p class="p-content shell-prompt">git branch &lt;branch&gt;</p>
