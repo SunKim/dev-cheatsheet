@@ -60,7 +60,7 @@ export default {
   components: {
     PageTitle: () =>
       import('components/PageTitle.vue').then(
-        console.log('PageTitle.vue(Async Component) is dynamically loaded')
+        // console.log('PageTitle.vue(Async Component) is dynamically loaded')
       ),
     Ubuntu: () => import('pages/os/Ubuntu.vue'),
     Macos: () => import('pages/os/Macos.vue')

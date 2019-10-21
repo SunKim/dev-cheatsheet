@@ -1,3 +1,8 @@
+@font-face {
+  /* chrome audit tool에서 설정 권장 */
+  font-display: auto;
+}
+
 /* 기본 */
 * { -webkit-overflow-scrolling: touch;color: }
 html, body, header, section, footer, div, ul { scroll-behavior: smooth; }
