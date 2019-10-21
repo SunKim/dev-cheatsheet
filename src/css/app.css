@@ -20,6 +20,7 @@ section .p-title:first-child { margin-top:12px; }
 .p-title::before { content: "●  "; }
 .p-content { margin-top:4px; margin-bottom: 0px; color: #37474F; padding-left: 12px; }
 .p-content ul { margin-top:4px; margin-bottom: 0px; }
+.p-content ul li::before { content: " - "; }
 .shell-prompt::before { content: "~$ ";color: #666; }
 .p-cf { margin: 6px 2px; padding: 4px 8px;; background: #f5f5f5; color: #666; border-radius: 4px; line-height: 1.4rem; }
 .p-cf::before { content: "cf)"; }

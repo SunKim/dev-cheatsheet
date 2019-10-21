@@ -81,13 +81,6 @@
       <p class="p-content shell-prompt">quasar dev</p>
       <p class="p-content shell-prompt">quasar build</p>
 
-      <p class="p-title">quasar.config.js</p>
-      <p class="p-content">
-        <a target="_blank" class="q-link text-blue-grey" href="https://quasar.dev/quasar-cli/quasar-conf-js#Introduction">
-          https://quasar.dev/quasar-cli/quasar-conf-js#Introduction
-        </a>
-      </p>
-
       <p class="p-title">App Icon</p>
       <p class="p-content shell-prompt">quasar ext add @quasar/icon-genie</p>
       <p class="p-cf">
@@ -96,6 +89,30 @@
         <a target="_blank" class="q-link text-blue-grey" href="https://github.com/quasarframework/app-extension-icon-genie">
           https://github.com/quasarframework/app-extension-icon-genie
         </a>
+      </p>
+    </section>
+
+    <section>
+      <section-title>quasar.conf.js</section-title>
+
+      <p class="p-title">quasar.config.js</p>
+      <p class="p-content">
+        <a target="_blank" class="q-link text-blue-grey" href="https://quasar.dev/quasar-cli/quasar-conf-js#Introduction">
+          https://quasar.dev/quasar-cli/quasar-conf-js#Introduction
+        </a>
+      </p>
+
+      <p class="p-title">Property: build</p>
+      <p class="p-content">
+        <a target="_blank" class="q-link text-blue-grey" href="https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build">
+          https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
+        </a>
+        <ul class="mt20">
+          <li>
+            publicPath : index.html 파일 위치가 root(/)가 아닌경우 설정<br />
+            ex) abc.com/frontend/quasar/index.html 일 경우 publicPath: '/frontend/quasar'
+          </li>
+        </ul>
       </p>
     </section>
 
