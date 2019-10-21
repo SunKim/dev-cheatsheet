@@ -158,10 +158,50 @@
               <li class="shell-prompt">quasar run 'ext-id' 'command' [args, params] <span class="inline-cmt">App extension에서 사용 가능한 command 실행</span></li>
           </ul>
       </p>
-      <p class="p-cf"></p>
 
-      <p class="p-title"></p>
-      <p class="p-content"></p>
+      <p class="p-title">Routing</p>
+      <p class="p-content">Vue Router Initialize : /src/router/index.js</p>
+      <p class="p-content">실제 Routes : /src/router/routes.js</p>
+      <p class="p-cf">
+        Vue Router :
+        <a target="_blank" class="q-link text-blue-grey" href="https://router.vuejs.org">
+          https://router.vuejs.org
+        </a>
+      </p>
+
+      <p class="p-title">Lazy-load Components</p>
+      <p class="p-content">
+        <pre>
+    //original Routing
+    import SomePage from 'pages/SomePage'
+
+    const routes = [
+      {
+        path: '/some-page',
+        component: SomePage
+      }
+    ]
+
+    //Lazy-load Components Routing
+    const routes = [
+      {
+        path: '/some-page',
+        component: () => import('pages/SomePage')
+      }
+    ]
+        </pre>
+
+        <pre>
+    //original component import
+    import SomeComponent from 'components/SomeComponent'
+
+    export default {
+      components: {
+        SomeComponent,
+      }
+    }
+        </pre>
+      </p>
       <p class="p-cf"></p>
 
       <p class="p-title"></p>
